@@ -1,0 +1,47 @@
+/* IMPOSTAZIONI GENERALI */
+*{box-sizing: border-box;}
+a{color: aquamarine;}
+html{font-family: 'Poppins', sans-serif; font-size: 1em;}
+body{line-height: 1.3em;
+padding: 10px;
+background-image:url(../img/sfondo.png);
+width: 500px;}
+/* HEADER */
+header{background: rgb(33,51,149);
+    background: linear-gradient(90deg, rgba(33,51,149,1) 0%, rgba(78,138,150,1) 76%);; text-align: center ;text-transform: uppercase; color: white;  padding: 10px;
+box-shadow: 1px 3px 3px; font-weight: bold;}
+header div img {margin:20px;}
+
+ul li a{color: white;}
+
+/* MAIN */
+main{background-color: white; padding :2em; margin-top: 20px;box-shadow: 1px 3px 3px}
+hr{display: none;}
+h1{font-size: 1.5rem; font-weight: bold ; text-transform: uppercase; margin-bottom: 1em;}
+main h1, main p {margin-bottom: 1.1em;}
+/* FRATELLI ADIACENTI */
+h1 + p {color: grey;} 
+ul, ol{margin-left: 1.5em;}
+strong{color: blueviolet; font-weight: bold;}
+code{color:white;background-color: grey; border: 1px solid rgb(61, 58, 58) ; border-radius: 5px;}
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h2 {text-align: center; text-transform: uppercase; font-weight:  bold; font-size:1.2em;}
+/* TABELLE */
+caption{font-weight: bold; font-style: italic; text-align: center;
+;}
+table{width: 100%; text-align: center;}
+table thead{color: white; background-color: blue; align}
+th, td {padding 1 em;padding: 1em;}
+table tbody tr:nth-child(2n+1){background-color: rgb(197, 197, 197);}
+table{border-bottom: 1px solid blue; margin-bottom: 2em;}
+iframe{width: 100%; margin-bottom: 20px; border-radius: 20px; }
+/* FORM */
+form input{padding: 0.6em; border: 0; }
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer, aside{box-shadow: 1px 3px 3px; background-color: white;}
+
+
+aside div{background-color: rgb(199, 195, 189); padding: 1em; margin: 5px;}
+section, footer, aside{padding: 2em}

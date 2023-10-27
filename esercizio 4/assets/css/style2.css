@@ -1,0 +1,25 @@
+html{font-family: 'Poppins', sans-serif;
+}
+body {width: 500px; }
+nav{text-align: center; color: white;}
+header{text-align: center; background-color: rgb(48, 183, 236); font-weight: bold; color: white; min-height: 150px;  font-size: 1.8em;}
+header div{padding: 20px;}
+
+
+h1{font-size: 1.5em ; font-weight: bold;}
+.total{background-image: url(../img/sfondo.png); ;background-repeat: repeat; padding: 6%; }
+ul,  li {list-style: none; }
+main, footer, aside{background-color: white; padding: 10px;}
+code{ background-color: gray; border: solid black 1px;}
+tr:nth-child(2n+1){color: white; background-color: rgb(168, 168, 172); border: rgb(218, 218, 218);}
+th{background-color: blue;}
+.newsletter {background-color: rgb(245, 245, 245); border: rgb(224, 224, 224) solid 1px; padding: 3px;}
+aside div{ background-color: rgb(219, 218, 218) ; margin-bottom: 5px; padding: 10px; border: solid grey ;}
+footer{background-color: rgb(29, 149, 218); color: white; padding: 10px;}
+a[title="contattami per informazioni/lavoro/privacy"]{color: red;}
+header, main, footer{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  strong{color: blueviolet;}
+  ul{padding: 0; }
+  p.data{text-align: right;}
