@@ -163,11 +163,6 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 14
-  Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
-*/
-let numbers = []
-
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -181,3 +176,10 @@ let numbers = []
 let spesa = ["pane", "pasta", "carne"]
 let endVal = spesa.pop(); 
 console.log(spesa)
+
+/* ESERCIZIO 14
+  Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
+*/
+let numbers = []
+numbers[30] = 30
+console.log(numbers)
